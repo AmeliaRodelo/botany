@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+}
+
+.hero-image {
+  background-image: url("ferns.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  /* this will place the entire image in the element */
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%); /* need to understand better what this actually does */
+  color: white;
+}
+
+.main-text {
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  padding-left: 25%;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.p-text {
+  text-align: left;
+  padding-right: 30px;
+  padding-top: 25px;
+}
+
+.sidenav {
+  text-align: right;
+  padding-top: 20px;
+  width: 20%;
+  font-size: 25px; 
+  float: left;
+
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
